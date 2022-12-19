@@ -1,0 +1,55 @@
+.log-in-welcome {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.log-in-welcome h1 {
+  font-size: 300%;
+  margin-bottom: 30px;
+}
+.log-in-welcome h2 {
+  font-size: 150%;
+  opacity: 0.5;
+}
+form {
+  padding: 0px 20px;
+}
+.log-in-form_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-in-form_input input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.log-in-form_input input::placeholder {
+  font-size: 150%;
+}
+
+.log-in-form_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.log-in-form_btn button {
+  padding: 25px;
+  border: none;
+  background-color: var(--yellow);
+  border-radius: 20px;
+  margin-bottom: 15px;
+  font-size: 150%;
+  cursor: pointer;
+}
+.cocoa-link {
+  display: flex;
+  justify-content: center;
+}
+.cocoa-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 120%;
+}

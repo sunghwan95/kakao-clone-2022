@@ -1,0 +1,61 @@
+.display-friends {
+  background-color: #f9f9fa;
+  text-align: center;
+  padding: 20px;
+  font-size: 150%;
+}
+.display-friends i {
+  opacity: 0.3;
+}
+.display-friends span {
+  opacity: 0.7;
+}
+.fa-chevron-right {
+  margin-left: 8px;
+}
+
+.my-profile-img-container {
+  display: flex;
+  align-items: center;
+  padding: 10px var(--horizontal-space);
+}
+.my-profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+}
+.my-profile-img-container h1 {
+  font-size: 200%;
+  margin-left: 20px;
+}
+.how-many-friends {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 20px var(--horizontal-space);
+  border-top: 1px solid black;
+  opacity: 0.5;
+}
+.friends-list {
+  padding: 0px var(--horizontal-space);
+}
+.friends-list img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+.friends-list_img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.friends-list__name {
+  margin-left: 15px;
+}
+.friends-list__name h1 {
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+.friends-list__name h2 {
+  opacity: 0.7;
+}

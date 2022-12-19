@@ -1,0 +1,158 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/name-bar.css";
+@import "components/status-bar_title.css";
+/* screens */
+@import "screens/log-in.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chatting.css";
+@import "screens/chatting2.css";
+body {
+  box-sizing: border-box;
+  font-family: "Jua", sans-serif;
+}
+main {
+  height: 100vh;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.log-in-form_btn button:hover {
+  background-color: white;
+  color: var(--yellow);
+}
+button {
+  transition-property: background-color, color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+@keyframes rotate-gear {
+  0% {
+    transform: rotatez(0deg);
+    scale: 1;
+  }
+  50% {
+    transform: rotate(180deg);
+    scale: 1.5;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    scale: 1;
+  }
+}
+.fa-gear {
+  animation: rotate-gear 2s linear infinite;
+}
+
+@keyframes up-and-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.chatting-list {
+  animation: up-and-down 0.8s linear infinite;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+.fa-heart:hover {
+  animation: heartbeat 0.5s ease-in-out infinite;
+  color: red;
+  cursor: pointer;
+}
+.fa-heart:hover {
+  transition: color 0.5s ease-in-out;
+}
+@keyframes communicate {
+  from {
+    transform: translateX(400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.my-message {
+  animation: communicate 1s ease-out;
+}
+
+@keyframes communicate2 {
+  from {
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.message-from-opponent__img img,
+.message-from-opponent__nm-container h1 {
+  animation: communicate2 2s linear;
+}
+
+.message-from-opponent__img img,
+.message-from-opponent__nm-container h1 {
+  animation: communicate2 2s linear;
+}
+
+@keyframes communicate3 {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(00px);
+    opacity: 1;
+  }
+}
+.message-from-opponent__bubble-time h2 {
+  animation: communicate3 3.5s linear;
+}
+.message-from-opponent__bubble-time h3 {
+  animation: communicate3 5.5s linear;
+}
+.message-from-opponent__bubble-time div {
+  animation: communicate3 6.5s linear;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  body {
+    display: none;
+  }
+  html {
+    background-color: blue;
+  }
+}
+@media (min-width: 1000px) and (max-width: 200vw) {
+  body {
+    display: none;
+  }
+  html {
+    background-color: blue;
+  }
+}

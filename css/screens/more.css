@@ -1,0 +1,46 @@
+.my-profile-name-phone h2 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.my-profile-name-phone h2 i {
+  color: red;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+.my-profile-name-phone {
+  display: flex;
+  align-items: center;
+}
+.fa-bars {
+  top: 230px;
+  right: 50px;
+  position: absolute;
+}
+.suggest-cocoa-app {
+  margin: 50px 0px;
+  font-size: 150%;
+}
+.suggest-cocoa-applists {
+  display: flex;
+  justify-content: space-evenly;
+}
+.suggest-cocoa-applists div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.suggest-cocoa-applists img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.suggest-cocoa-applists h1 {
+  font-size: 120%;
+}
+.utility-icons-container {
+  margin-top: 50px;
+}
