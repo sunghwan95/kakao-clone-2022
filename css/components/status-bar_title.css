@@ -1,0 +1,21 @@
+.status-bar_title {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  top: 50px;
+  left: 5px;
+  padding: 10px 0px;
+  background-color: #f9f9fa;
+}
+.status-bar_title div {
+  width: 33%;
+  display: flex;
+  font-size: 200%;
+}
+.status-bar_title div:nth-child(2) {
+  justify-content: center;
+}
+.status-bar_title div:last-child {
+  justify-content: flex-end;
+}

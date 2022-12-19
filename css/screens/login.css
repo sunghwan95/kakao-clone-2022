@@ -1,0 +1,64 @@
+.log-in-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log-in-welcome h1 {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-size: 300%;
+}
+.log-in-welcome h2 {
+  text-align: center;
+  font-size: 150%;
+  opacity: 0.5;
+}
+.log-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 0px 20px;
+}
+.log-in-form_input {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.log-in-form_input input {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+.log-in-form_input input:focus {
+  border-color: var(--yellow);
+  transition: border-color 0.5s ease-in-out;
+}
+.log-in-form_input input::placeholder {
+  font-size: 150%;
+}
+.log-in-form_btn {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+.log-in-form_btn button {
+  padding: 20px;
+  border: none;
+  background-color: var(--yellow);
+  margin-top: 15px;
+  font-size: 150%;
+  font-weight: 600;
+  cursor: pointer;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  display: block;
+  opacity: 0.8;
+}

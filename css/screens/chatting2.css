@@ -1,0 +1,118 @@
+#background-color {
+  height: 150vh;
+  position: relative;
+  background-color: #abc1d1;
+}
+main .date {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.bar_background-color {
+  background-color: #abc1d1;
+}
+.date span {
+  margin: 20px 40px;
+  padding: 15px 35px;
+  background-color: #92a4b2;
+  color: white;
+  border-radius: 30px;
+  font-size: 130%;
+}
+.input-message {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 0px;
+  background-color: white;
+}
+.plus-icon {
+  width: 10%;
+  font-size: 150%;
+  text-align: center;
+}
+.message {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.message input {
+  width: 100%;
+  padding: 13px 0px;
+  border-radius: 25px;
+}
+.message button {
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+.fa-arrow-up {
+  font-size: 150%;
+}
+.message .fa-face-smile {
+  font-size: 150%;
+}
+.message button {
+  position: absolute;
+  right: 1px;
+  top: 5px;
+}
+.message .fa-face-smile {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+.message input::placeholder {
+  padding-left: 15px;
+  font-size: 120%;
+}
+.fa-face-smile,
+.fa-square-plus {
+  opacity: 0.5;
+}
+
+.message-from-opponent {
+  display: flex;
+  margin-top: 25px;
+}
+.message-from-opponent img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+.message-from-opponent__nm-container {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.message-from-opponent__nm-container h1 {
+  font-size: 200%;
+  margin-bottom: 15px;
+}
+.message-from-opponent__bubble-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.message-from-opponent__nm-container h2,
+.message-from-opponent__nm-container h3,
+.message-from-opponent__nm-container h4 {
+  padding: 10px;
+  font-size: 150%;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+}
+.message-from-opponent__bubble-time div {
+  display: flex;
+}
+.message-from-opponent__bubble-time div h5 {
+  margin-top: 25px;
+  margin-left: 5px;
+}

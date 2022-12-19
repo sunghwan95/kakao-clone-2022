@@ -1,0 +1,15 @@
+.name-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+}
+.name-bar_title {
+  font-size: 300%;
+}
+.name-bar_icons {
+  font-size: 200%;
+}
+.name-bar_icons i {
+  margin-left: 20px;
+}

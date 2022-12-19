@@ -1,0 +1,44 @@
+nav {
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  font-size: 200%;
+}
+nav ul li:nth-child(2) span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  color: white;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  right: -10px;
+  top: -5px;
+}
+nav ul li:nth-child(2) {
+  position: relative;
+}
+nav ul li:last-child div {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  position: absolute;
+  top: -5px;
+  right: -15px;
+}
+nav ul li:last-child {
+  position: relative;
+}
+nav a {
+  color: black;
+}
